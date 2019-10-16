@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The PixelExperience Project
+# Copyright (C) 2019 The BeastROMs
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 
-# Inherit some common BeastROMs stuff.
-$(call inherit-product, vendor/syberia/common.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := syberia_laurel_sprout
+PRODUCT_NAME := havoc_laurel_sprout
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI A3
