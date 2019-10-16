@@ -20,13 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 
 # Inherit some common BeastROMs stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_laurel_sprout
+PRODUCT_NAME := pixys_laurel_sprout
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI A3
