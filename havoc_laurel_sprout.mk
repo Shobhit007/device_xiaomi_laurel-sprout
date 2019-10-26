@@ -20,13 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 
 # Inherit some common PixysROM stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 720
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES :=1080
 
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := pixys_laurel_sprout
+PRODUCT_NAME := havoc_laurel_sprout
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI A3
