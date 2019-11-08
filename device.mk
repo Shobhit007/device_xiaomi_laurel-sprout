@@ -125,7 +125,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_trinket
+    lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_trinket
 
 PRODUCT_COPY_FILES += \
      vendor/havoc/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
